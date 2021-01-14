@@ -4,12 +4,17 @@
 2 лабораторная работа. Код находится в файле main.cpp, скомпилированная программа находится в файле threads_messaging.
 
 4 лабораторная работа. изначально было прописано файлы Configure.ac, Makefile.am, в папке src: Makefile.am, main.c. После этого набрал следующие команды:
+
 autoreconf --install
+
 ./configure
+
 make
+
 после этого в папке src появился файл hello
 
 5 лабораторная работа. Набираем следующие команды для настройки докера, находящегося в папке
+
 docker build . -t new
 
 docker run -p 80:80 new python3 /code/manage.py runserver 0.0.0.0:80
