@@ -11,4 +11,5 @@ make
 
 5 лабораторная работа. Набираем следующие команды для настройки докера, находящегося в папке
 docker build . -t new
+
 docker run -p 80:80 new python3 /code/manage.py runserver 0.0.0.0:80
